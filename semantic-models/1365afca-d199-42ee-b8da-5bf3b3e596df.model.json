@@ -1,13 +1,14 @@
 {
   "type": "http://dataspecer.com/resources/local/semantic-model",
-  "modelId": "9l8ye",
+  "modelId": "0eb5e91d-01aa-4705-ad1e-073d83360cba/1365afca-d199-42ee-b8da-5bf3b3e596df",
   "modelAlias": "Default local model",
   "baseIri": "",
   "entities": {
     "tv2b3zelwbmmuciocb": {
       "iri": "plainFamily",
       "name": {
-        "en": "Plain Family"
+        "en": "Plain Family new name",
+        "cs": "new czecj anem"
       },
       "description": {},
       "externalDocumentationUrl": null,
@@ -87,6 +88,45 @@
         }
       ],
       "id": "8t93dyn183lmmucixo9",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "cwn16d7co9immuckdko": {
+      "iri": "fuzzyForce",
+      "name": {
+        "en": "Fuzzy Force"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "cwn16d7co9immuckdko",
+      "type": [
+        "class"
+      ]
+    },
+    "eh819jkk1pmmuckdl0": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "3lp2e9mrjhfmmucirsl",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Gigantic Water"
+          },
+          "description": {},
+          "concept": "cwn16d7co9immuckdko",
+          "iri": "giganticWater",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "eh819jkk1pmmuckdl0",
       "type": [
         "relationship"
       ],
