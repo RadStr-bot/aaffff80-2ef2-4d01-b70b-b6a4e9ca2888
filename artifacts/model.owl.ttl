@@ -1,0 +1,25 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix prof: <http://www.w3.org/ns/dx/prof/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+<> a owl:Ontology, prof:Profile.
+<pleasantCar> a owl:Class, rdfs:Class;
+    rdfs:label "Pleasant Car"@en;
+    rdfs:isDefinedBy <>.
+<broadResult> a owl:Class, rdfs:Class;
+    rdfs:label "Broad Result"@en;
+    rdfs:isDefinedBy <>.
+<plainFamily> a owl:Class, rdfs:Class;
+    rdfs:label "Plain Family"@en;
+    rdfs:isDefinedBy <>.
+<scaryNight> a rdf:Property, owl:ObjectProperty;
+    rdfs:label "Scary Night"@en;
+    rdfs:isDefinedBy <>;
+    rdfs:domain <plainFamily>;
+    rdfs:range <pleasantCar>.
+<pompousKid> a rdf:Property, owl:ObjectProperty;
+    rdfs:label "Pompous Kid"@en;
+    rdfs:isDefinedBy <>;
+    rdfs:domain <plainFamily>;
+    rdfs:range <broadResult>.
