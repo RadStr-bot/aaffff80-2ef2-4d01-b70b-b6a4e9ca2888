@@ -1,0 +1,98 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "9l8ye",
+  "modelAlias": "Default local model",
+  "baseIri": "",
+  "entities": {
+    "tv2b3zelwbmmuciocb": {
+      "iri": "plainFamily",
+      "name": {
+        "en": "Plain Family"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "tv2b3zelwbmmuciocb",
+      "type": [
+        "class"
+      ]
+    },
+    "3lp2e9mrjhfmmucirsl": {
+      "iri": "broadResult",
+      "name": {
+        "en": "Broad Result"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "3lp2e9mrjhfmmucirsl",
+      "type": [
+        "class"
+      ]
+    },
+    "x5ydn99y7ydmmucirtj": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "tv2b3zelwbmmuciocb",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Pompous Kid"
+          },
+          "description": {},
+          "concept": "3lp2e9mrjhfmmucirsl",
+          "iri": "pompousKid",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "x5ydn99y7ydmmucirtj",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    },
+    "0wrzb9xkfsymmucixo7": {
+      "iri": "pleasantCar",
+      "name": {
+        "en": "Pleasant Car"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "0wrzb9xkfsymmucixo7",
+      "type": [
+        "class"
+      ]
+    },
+    "8t93dyn183lmmucixo9": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "tv2b3zelwbmmuciocb",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Scary Night"
+          },
+          "description": {},
+          "concept": "0wrzb9xkfsymmucixo7",
+          "iri": "scaryNight",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "8t93dyn183lmmucixo9",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    }
+  }
+}
